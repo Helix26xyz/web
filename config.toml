@@ -1,8 +1,8 @@
-title = "My Hugo Site"
-baseURL = "http://example.com/"
+title = "Helix26"
+baseURL = "https://helix26.xyz/"
 languageCode = "en-us"
-theme = "your-theme-name"
+theme = "paper"
 
 [params]
-  description = "A sample Hugo site"
-  author = "Your Name"
+  description = "Website for Helix26 Projects"
+  author = "admin@helix26.xyz"
