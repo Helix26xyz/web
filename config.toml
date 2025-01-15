@@ -3,6 +3,51 @@ baseURL = "https://helix26.xyz/"
 languageCode = "en-us"
 theme = "paper"
 
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+    
+[services]
+  [services.disqus]
+    shortname = 'helix26xyz'     # use disqus comments
+
 [params]
+
   description = "Website for Helix26 Projects"
   author = "admin@helix26.xyz"
+
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'Helix26xyz'                 # github.com/YOUR_GITHUB_ID
+  # mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
+  # bluesky = 'YOUR_BLUESKY_ID'               # https://bsky.app/profile/YOUR_BLUESKY_ID
+  # rss = true                                # show rss icon
+
+  # home page profile
+  #avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+  #name = 'YOUR_NAME'
+  #bio = 'YOUR_BIO'
+
+
+  # misc
+  #disableHLJS = true                        # disable highlight.js
+  #disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  #gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  #math = true                               # enable KaTeX math typesetting globally
+  #localKatex = false                        # use local KaTeX js/css instead of CDN
+  #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  #favicon = "favicon.ico"                   # customize the default favicon
+  #appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon

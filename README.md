@@ -1,11 +1,7 @@
-# My Hugo Site
-
-This is a sample Hugo site created to demonstrate the structure and functionality of a Hugo project.
-
 ## Project Structure
 
 ```
-my-hugo-site
+this_directory
 ├── archetypes
 │   └── default.md        # Template for new content types
 ├── content
@@ -32,12 +28,6 @@ To set up and run this Hugo site, follow these steps:
 
    ```
    git clone <repository-url>
-   ```
-
-3. **Navigate to the Project Directory**:
-
-   ```
-   cd my-hugo-site
    ```
 
 4. **Run the Hugo Server**: Start the Hugo server to view the site locally.
